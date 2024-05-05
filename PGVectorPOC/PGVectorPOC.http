@@ -1,0 +1,6 @@
+@PGVectorPOC_HostAddress = http://localhost:5225
+
+GET {{PGVectorPOC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
