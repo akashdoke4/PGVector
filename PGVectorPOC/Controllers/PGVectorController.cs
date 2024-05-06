@@ -5,12 +5,12 @@ namespace PGVectorPOC.Controllers
 {
     [ApiController]
     [Route("/api")]
-    public class WeatherForecastController : ControllerBase
+    public class PGVectorController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<PGVectorController> _logger;
         private readonly IService _service;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IService service)
+        public PGVectorController(ILogger<PGVectorController> logger, IService service)
         {
             _logger = logger;
             _service = service;

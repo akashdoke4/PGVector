@@ -1,8 +1,6 @@
 ﻿using Dapper;
-using Npgsql;
 using Pgvector;
 using Pgvector.Dapper;
-using Pgvector.Npgsql;
 using PGVectorPOC.Helper;
 using PGVectorPOC.Services.Interface;
 
